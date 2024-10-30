@@ -1,7 +1,7 @@
 
 # Faster R-CNN Object Detection Project
 
-This repository contains an implementation of Faster R-CNN for object detection, focusing on a custom modification where only the Region of Interest (RoI) head is unfrozen for fine-tuning. The goal is to leverage a pre-trained model while adjusting the classifier to fit a specific number of classes, providing efficient and high-performance detection on a custom dataset.
+This repository contains an implementation of Faster R-CNN for object detection using PyTorch framework, focusing on a custom modification where only the Region of Interest (RoI) head is unfrozen for fine-tuning. The goal is to leverage a pre-trained model while adjusting the classifier to fit a specific number of classes, providing efficient and high-performance detection on a custom dataset.
 
 ## Model Overview
 
