@@ -29,11 +29,16 @@ Below is an example of the output with bounding boxes and labels drawn over the 
 ## Requirements
 
 - Python 3.8+
-- PyTorch
-- Torchvision
-- Matplotlib
+- torch==2.4.1+cu118
+- torchvision==0.19.1+cu118
+- torch_snippets==0.545
+- pillow==10.2.0
+- scikit-learn==1.3.2
+- torchinfo==1.8.0
+- matplotlib==3.7.5
 
 Install the necessary dependencies with:
+
 ```bash
 pip install -r requirements.txt
 
